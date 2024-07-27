@@ -25,6 +25,7 @@ const WeatherDetails = ({icon,temp,city,country,lat,log,humidity,wind }) => {
     <span className='lat'>lattitude</span>
     <span>{lat}</span>
   </div>
+  
   <div>
     <span className='log'>longitude</span>
     <span>{log}</span>
